@@ -23,7 +23,7 @@
 	};
 	
 	/**
-	 * @param url 上传文件url
+	 * @param url 		上传文件url
 	 * @param callback 	[可选] 上传完成后的回调函数
 	 * @param type		[可选] 返回数据类型
 	 */
