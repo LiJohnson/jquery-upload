@@ -8,5 +8,5 @@ example
 $("input:file").uploadFile("upload_url" , function(data){
     alert("uploaded");/* response && do something*/
     }
-    ,"html"); /*type,default is 'json'*/
+    ,"html"); /*type,default is 'json'*/ 
 });
