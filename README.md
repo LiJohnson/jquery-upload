@@ -1,12 +1,12 @@
 jquery-upload
 ====================
 
-case 1:jquery+iframe=upload
+ - case 1:jquery+iframe=upload
 
-case 2:jquery+XMLHttpRequestUpload=upload
+ - case 2:jquery+XMLHttpRequestUpload=upload
 
-example
-
+##example
+```javascript
 $("input:file").uploadFile("upload_url" , function(data){
 
     alert("uploaded");/* response && do something*/
@@ -16,4 +16,4 @@ $("input:file").uploadFile("upload_url" , function(data){
     ,"html"); /*type,default is 'json'*/ 
     
 });
-
+```
